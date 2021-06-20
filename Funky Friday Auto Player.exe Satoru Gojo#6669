@@ -13,7 +13,7 @@
 -- you need the following functions
 -- loadstring, HttpGet, getgc, getloadedmodules, getconnections, and set_thread_identity or whatever you call it
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Glowing-Red/Himiko-Toga-0001/main/Roses%20are%20red%20violets%20are%20blue%2C%20you%20are%20beautiful%20and%20thats%20so%20true.%20%3C3%20Btw%20this%20totally%20isnt%20a%20stolen%20library%20and%20im%20totally%20not%20trying%20to%20make%20the%20link%20light%20years%20long%2C%20Anyways%20how%20has%20your%20day%20been%3F%20Good%3F%20Glad%20to%20hear%20mine%20has%20been%20awesome%20%3C3%20MVH%20-%20Satoru%20Gojo%236669"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Glowing-Red/Himiko-Toga-0001/main/Stolen%20Library.exe%20Satoru%20Gojo%236669"))()
 
 local framework, scrollHandler
 while true do
