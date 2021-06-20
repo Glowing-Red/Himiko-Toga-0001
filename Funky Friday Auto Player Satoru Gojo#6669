@@ -13,7 +13,7 @@
 -- you need the following functions
 -- loadstring, HttpGet, getgc, getloadedmodules, getconnections, and set_thread_identity or whatever you call it
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Glowing-Red/Himiko-Toga-0001/main/Stolen%20Library.exe%20Satoru%20Gojo%236669"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/uwuware-ui/main/main.lua"))()
 
 local framework, scrollHandler
 while true do
@@ -181,8 +181,8 @@ local window = library:CreateWindow('Satoru Gojo#6669') do
 	local folder = window:AddFolder('Features') do
 		folder:AddToggle({ text = 'Autoplayer', flag = 'autoPlayer' })
 
-		folder:AddSlider({ text = 'Sick %', flag = 'sickChance', min = 0, max = 100, value = 80 })
-		folder:AddSlider({ text = 'Good %', flag = 'goodChance', min = 0, max = 100, value = 20 })
+		folder:AddSlider({ text = 'Sick %', flag = 'sickChance', min = 0, max = 100, value = 100 })
+		folder:AddSlider({ text = 'Good %', flag = 'goodChance', min = 0, max = 100, value = 0 })
 		folder:AddSlider({ text = 'Ok %', flag = 'okChance', min = 0, max = 100, value = 0 })
 		folder:AddSlider({ text = 'Bad %', flag = 'badChance', min = 0, max = 100, value = 0 })
 	end
